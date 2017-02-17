@@ -1,0 +1,28 @@
+2D-Map
+Resolution: 0
+LineMinPos: -4360 -3460
+LineMaxPos: 4180 5340
+NumLines: 6
+LinesAreSorted: true
+MapInfo: DockType "Name=Dock" "Label=Dock" "NameRequired=1" "Color0=0xffff00" "Color1=0x000000" "Color2=0x000000" "Heading=Required"
+MapInfo: GoalType "Name=Goal" "Label=Goal" "NameRequired=1" "Color0=0x008080" "Color1=0x00ffff" "Color2=0x008080"
+MetaInfo: Rotation "Value=0"
+MetaInfo: Feature "Name=changeprocessing"
+RouteInfo: EveryBefore "_everyBefore"
+RouteInfo: EveryAfter "_everyAfter"
+SchedInfo: Current "_Friday"
+SchedInfo: Current "_Monday"
+SchedInfo: Current "_Saturday"
+SchedInfo: Current "_Sunday"
+SchedInfo: Current "_Thursday"
+SchedInfo: Current "_Tuesday"
+SchedInfo: Current "_Wednesday"
+Cairn: RobotHome 0 0 180.000000 "" ICON ""
+LINES
+-4360 -3040 4180 -3040
+-3960 5220 -3960 -3320
+2040 5100 2040 2860
+4000 -3460 4000 5340
+4020 4960 -4080 4960
+4060 2980 1960 2980
+DATA
